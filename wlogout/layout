@@ -1,0 +1,39 @@
+{
+    "label" : "exit",
+    "action" : "",
+    "text" : "Exit",
+    "keybind" : "h"
+}
+
+{
+    "label" : "lock",
+    "action" : "omarchy-lock-screen",
+    "text" : "Lock",
+    "keybind" : "l"
+}
+{
+    "label" : "suspend",
+    "action" : "systemctl suspend",
+    "text" : "Suspend",
+    "keybind" : "u"
+}
+
+{
+    "label" : "shutdown",
+    "action" : "omarchy-cmd-shutdown ",
+    "text" : "Shutdown",
+    "keybind" : "s"
+}
+{
+    "label" : "screensaver",
+    "action" : "omarchy-launch-screensaver force",
+    "text" : "Screensaver",
+    "keybind" : "e"
+}
+
+{
+    "label" : "reboot",
+    "action" : "omarchy-cmd-reboot",
+    "text" : "Reboot",
+    "keybind" : "r"
+}
