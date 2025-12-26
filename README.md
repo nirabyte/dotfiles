@@ -7,7 +7,7 @@
 
 ## Tofi Configuration
 This repository provides configurations and scripts for **Tofi** (application launcher and clipboard menu) instead of Walker.
-> ⚠️ Note: This configuration is set up for matching **Catppuccin theme**. It may not match your current Omarchy theme. You can change the theme to your liking.
+>  Note: This configuration is set up for matching **Catppuccin theme**. It may not match your current Omarchy theme. You can change the theme to your liking.
 
 
 
@@ -165,4 +165,4 @@ hypr/
 
 Source them from `hyprland.conf`:
 
-> ⚠️ Note: You can change the keybinding or config file according to your preference.
+> Note: You can change the keybinding or config file according to your preference.
