@@ -42,16 +42,11 @@ systemd/
 systemd/user/
 autostart/
 elephant/
-gitui/
 hyprland-preview-share-picker/
 imv/
-lazydocker/
 lazygit/
-swayosd/
 uwsm/
 walker/
 electron-builder.json
 current
-atac
-README.md
 .bashrc
