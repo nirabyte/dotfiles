@@ -50,3 +50,7 @@ walker/
 electron-builder.json
 current
 .bashrc
+posting
+uv
+lazydocker
+swayosd
