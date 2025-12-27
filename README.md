@@ -1,23 +1,23 @@
 ### Theme: Catppuccin
+
 ![System Preview](assets/preview.png)
 
-
 ## Omarchy walker inspired layout in Tofi
+
 ![Application Launcher](assets/output.gif)
 
 ## Tofi Configuration
+
 This repository provides configurations and scripts for **Tofi** (application launcher and clipboard menu) instead of Walker.
+
 > Note: This configuration is set up for matching **Catppuccin theme**. It may not match your current Omarchy theme. You can change the theme to your liking.
 
-
-
 ---
-
-
 
 The `tofi/` directory contains styling and configuration files for Tofi.
 
 ### Installation
+
 1. Copy the contents to your Tofi config directory:
 
 ```bash
@@ -26,9 +26,10 @@ cp -r tofi/* ~/.config/tofi/
 ```
 
 ### Example Configs
-- `~/.config/tofi/configA` – application launcher  
-- `~/.config/tofi/configC` – Keybindings  
-- `~/.config/tofi/configV` – clipboard menu  
+
+- `~/.config/tofi/configA` – application launcher
+- `~/.config/tofi/configC` – Keybindings
+- `~/.config/tofi/configV` – clipboard menu
 
 You may rename or modify these files as needed.
 
@@ -59,7 +60,8 @@ bind = SUPER, Space, exec, $menu
 You can change the keybinding or config file according to your preference.
 
 ### Screenshot
-![Application Launcher](assets/applauncher.png)  
+
+![Application Launcher](assets/applauncher.png)
 
 ---
 
@@ -70,8 +72,10 @@ You can change the keybinding or config file according to your preference.
 ```bash
 bind = SUPER, M, exec, omarchy-menu-tofi
 ```
+
 > ### Screenshot
-![Main Menu](assets/tofimenu.png)  
+>
+> ![Main Menu](assets/tofimenu.png)
 
 Includes all the menu provided by default Omarchy walker.
 
@@ -123,6 +127,7 @@ exec-once = rm "$HOME/.cache/cliphist/db"
 bind = SUPER SHIFT, V, exec, \
 cliphist list | tofi -c ~/.config/tofi/configV --prompt-text "󱘛 : " | cut -f1 | cliphist delete
 ```
+
 Optional: Wipe entire clipboard history
 
 ```bash
@@ -130,6 +135,7 @@ bind = SUPER ALT, V, exec, cliphist wipe
 ```
 
 ### Screenshot
+
 ![Clipboard](assets/clipboard.png)
 
 ---
@@ -139,15 +145,17 @@ bind = SUPER ALT, V, exec, cliphist wipe
 Show all keybindings using Tofi:
 
 > Bind it in your `hyprland.conf`
+
 ```bash
 bind = SUPER, K, Show key bindings, exec, omarchy-keybindings-tofi
 ```
 
-
 ### Screenshot
+
 ![Keybindings](assets/keybindings.png)
 
 ---
+
 
 ## Hyprland File Organization
 
@@ -166,3 +174,9 @@ hypr/
 Source them from `hyprland.conf`:
 
 > Note: You can change the keybinding or config file according to your preference.
+---
+
+### Wlogout
+
+![wlogout](assets/wlogout.png)
+
