@@ -6,7 +6,7 @@ procps/
 yay/
 google-chrome/
 gh/
-fcitx/
+fcitx5/
 vesktop/
 gthumb/
 ibus/
@@ -55,3 +55,4 @@ uv
 lazydocker
 swayosd
 github-copilot
+gitui

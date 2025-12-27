@@ -40,6 +40,9 @@
 }
 #workspaces button.active {
     opacity: 1;
+    background: #262626;
+;
+    
 }
 #workspaces button.occupied:not(.active) {
     opacity: 0.6;
