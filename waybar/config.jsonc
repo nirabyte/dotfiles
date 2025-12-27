@@ -11,7 +11,6 @@
     // "custom/fan",
     "hyprland/window",
   ],
-
   "modules-center": [
     "clock",
     "custom/screenrecording-indicator",
