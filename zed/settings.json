@@ -1,4 +1,19 @@
 {
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "oswe-vscode-prime"
+    },
+    "model_parameters": []
+  },
+  "agent_servers": {
+    "your_agent": {
+      "type": "custom",
+      "command": "path_to_executable",
+      "args": [],
+      "env": {}
+    }
+  },
   "edit_predictions": {
     "mode": "eager"
   },
@@ -81,9 +96,9 @@
     "light": "Zed (Default)",
     "dark": "Material Icon Theme"
   },
-  // "features": {
-  //   "edit_prediction_provider": "copilot"
-  // },
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
   "autosave": {
     "after_delay": {
       "milliseconds": 200

@@ -70,7 +70,9 @@
 #tray {
     margin-right: 16px;
 }
-
+#custom-omarchy {
+    font-size: 13;
+}
 #bluetooth {
     margin-right: 20px;
 }

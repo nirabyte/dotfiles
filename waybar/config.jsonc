@@ -54,7 +54,7 @@
     },
   },
   "custom/omarchy": {
-    "format": "<span font='omarchy'>\ue900</span>",
+    "format": "",
     "on-click": "omarchy-menu-tofi",
     "on-click-right": "sh -c 'wlogout'",
     "tooltip-format": "Menu",

@@ -465,7 +465,7 @@ show_system_menu() {
 
 show_main_menu() {
     local opts="󰀻 Apps\n󰧑 Learn\n󱓞 Trigger\n Style\n Setup\n󰉉 Install\n󰭌 Remove\n Update\n About\n System"
-    case $(menu "󰊠" "$opts") in
+    case $(menu "" "$opts") in
         *Apps*) tofi-drun -c ~/.config/tofi/configA --drun-launch=true ;;
         *Learn*) show_learn_menu ;;
         *Trigger*) show_trigger_menu ;;
