@@ -68,14 +68,14 @@
     "interval": 21600,
   },
   "hyprland/window": {
-    "format": " {title} - {class}",
+    "format": "{title} - {class}",
     "tooltip": true,
     "max-length": 45,
 
     "rewrite": {
       " - ": "", // if no window is focused, a single dash is displayed, this removes it
-      "(.*) - dev\\.zed\\.Zed": " 󰨞$1",
-      "(.*) - Google-Chrome": "  $1",
+      "(.*) - dev\\.zed\\.Zed": " 󰨞 $1",
+      "(.*) - Google-Chrome": "   $1",
       "(.*nvim)...(.*)": "   $2 ",
       "(.*code) - (.*)": " 󰨞  $1 ",
       "^.*btop( .*|$)": " 󰧨 BTOP $1 ",
@@ -83,7 +83,9 @@
       "(.*) - Spotify": "  $1 ",
       "(.*) - com.mitchellh.ghostty": "󰊠 $1 ",
       "(.*) - Alacritty": "   $1 ",
-      "(.*Discord)...(.*).. (.*)": "   $2 ",
+      "(.*Discord)...(.*)": "   $2 ",
+      "(.*) - Vesktop": "   $1",
+
       "(.*) - org.gnome.Nautilus": " 󰉓  $1 ",
       "(.*Steam)...(.*)": "   $1",
       "(.*imv)...(.*).. (.*)": "   $2",
